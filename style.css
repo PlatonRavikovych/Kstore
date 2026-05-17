@@ -1,0 +1,655 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #DAD7CD;
+}
+
+button:focus-visible {
+  outline: 2px solid #4a90e2;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.home-page {
+  background-color: #DAD7CD;
+  width: 1440px;
+  min-height: 3067px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+.home-page .header {
+  width: 1440px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 62px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  background-color: transparent;
+}
+
+.home-page .kstore-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #588157;
+  border-radius: 10px;
+  padding: 12px 32px;
+  cursor: pointer;
+}
+
+.home-page .kstore {
+  font-family: "Inter", Helvetica, sans-serif;
+  font-size: 24px;
+  color: transparent;
+  margin: 0;
+  line-height: normal;
+}
+
+.home-page .span {
+  color: #ffffff;
+}
+
+.home-page .text-wrapper-13 {
+  color: #000000;
+}
+
+.home-page .div-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  background-color: #588157;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 14px 30px;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.home-page .div-wrapper:hover {
+  background-color: #3e5b41;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 2px solid #588157;
+  border-radius: 4px;
+  overflow: hidden;
+  background: white;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+}
+
+.search-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  width: 300px;
+  height: 50px;
+  font-size: 18px;
+  font-family: "Inter", Helvetica, sans-serif;
+  background: transparent;
+}
+
+.search-input::placeholder {
+  color: #8c8c8c;
+}
+
+.button-find {
+  all: unset;
+  box-sizing: border-box;
+  background-color: #588157;
+  color: #ffffff;
+  padding: 0 30px;
+  height: 54px;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: "Inter", Helvetica, sans-serif;
+  white-space: nowrap;
+}
+
+.button-find:hover {
+  background-color: #3e5b41;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.header-icon {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.home-page .frame {
+  width: 1440px;
+  height: 564px;
+  flex-shrink: 0;
+}
+
+.home-page .div {
+  width: 1440px;
+  height: 564px;
+  position: relative;
+  background-image: url(./img/Rectangle\ 1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.home-page .ellipse {
+  position: absolute;
+  left: 679px;
+  top: 532px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #588157;
+}
+
+.home-page .ellipse-2,
+.home-page .ellipse-3,
+.home-page .ellipse-4,
+.home-page .ellipse-5 {
+  position: absolute;
+  top: 532px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #a3b18a;
+}
+
+.home-page .ellipse-2 { left: 697px; }
+.home-page .ellipse-3 { left: 715px; }
+.home-page .ellipse-4 { left: 733px; }
+.home-page .ellipse-5 { left: 751px; }
+
+.home-page .frame-2 {
+  display: flex;
+  flex-direction: column;
+  width: 383px;
+  align-items: flex-start;
+  position: absolute;
+  top: 78px;
+  left: 101px;
+  gap: 16px;
+}
+
+.home-page .text-wrapper {
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 600;
+  color: #000000;
+  font-size: 32px;
+  line-height: normal;
+}
+
+.home-page .button {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 12px;
+  background-color: #a3b18a;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.home-page .text-wrapper-2 {
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  line-height: normal;
+}
+
+.home-page .ic-outline-arrow {
+  position: absolute;
+  top: 239px;
+  left: 21px;
+  width: 85px;
+  height: 85px;
+}
+
+.home-page .img {
+  position: absolute;
+  top: 237px;
+  left: 1350px;
+  width: 90px;
+  height: 90px;
+}
+
+
+.home-page .text-wrapper-3 {
+  position: absolute;
+  top: 730px;
+  left: 154px;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  line-height: normal;
+}
+
+.home-page .tshirtcategory {
+  display: flex;
+  width: 270px;
+  height: 275px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 8px 15px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 800px;
+  left: 100px;
+  border-radius: 16px;
+  background-image: url(./img/primary.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.home-page .text-wrapper-14 {
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  line-height: normal;
+}
+
+.home-page .frame-7 {
+  display: flex;
+  width: 270px;
+  height: 276px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 8px 15px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 800px;
+  left: 415px;
+  border-radius: 16px;
+  background-image: url(./img/Frame\ 32\ \(1\).png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.home-page .frame-8 {
+  display: flex;
+  width: 270px;
+  height: 276px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 8px 15px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 800px;
+  left: 731px;
+  border-radius: 16px;
+  background-image: url(./img/Frame\ 33\ \(1\).png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.home-page .frame-9 {
+  display: flex;
+  width: 270px;
+  height: 276px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 8px 15px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 800px;
+  left: 1045px;
+  border-radius: 16px;
+  background-image: url(./img/Frame\ 34\ \(1\).png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.home-page .text-wrapper-15 {
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: normal;
+}
+
+
+.home-page .text-wrapper-4 {
+  position: absolute;
+  top: 1155px;
+  left: 139px;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  line-height: normal;
+}
+
+.home-page .frame-3 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1243px;
+  align-items: flex-start;
+  gap: 17px;
+  position: absolute;
+  top: 1230px;
+  left: 109px;
+}
+
+.home-page .div-2 {
+  position: relative;
+  width: 295px;
+  height: 440px;
+}
+
+.home-page .heart-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  width: 295px;
+  height: 276px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 8px 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 16px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.home-page .heart {
+  width: 31px;
+  height: 31px;
+}
+
+.home-page .product-photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 295px;
+  height: 276px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.home-page .text-wrapper-5 {
+  position: absolute;
+  top: 289px;
+  left: 0;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  line-height: normal;
+}
+
+.home-page .star  { position: absolute; top: 343px; left: 1px;   width: 39px; height: 37px; }
+.home-page .star-2{ position: absolute; top: 343px; left: 42px;  width: 39px; height: 37px; }
+.home-page .star-3{ position: absolute; top: 343px; left: 80px;  width: 39px; height: 37px; }
+.home-page .star-4{ position: absolute; top: 343px; left: 121px; width: 39px; height: 37px; }
+.home-page .star-5{ position: absolute; top: 343px; left: 159px; width: 38px; height: 37px; }
+
+.home-page .text-wrapper-6,
+.home-page .text-wrapper-8 {
+  position: absolute;
+  top: 364px;
+  left: 201px;
+  width: 85px;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home-page .text-wrapper-7 {
+  position: absolute;
+  top: 397px;
+  left: 0;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  line-height: normal;
+}
+
+.home-page .mdi-cart {
+  position: absolute;
+  top: 397px;
+  left: 251px;
+  width: 44px;
+  height: 44px;
+}
+
+
+.home-page .text-wrapper-9 {
+  position: absolute;
+  top: 2160px;
+  left: 132px;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  line-height: normal;
+}
+
+.home-page .frame-4 {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  position: absolute;
+  top: 2230px;
+  left: 100px;
+}
+
+
+.home-page .rectangle {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 1440px;
+  height: 221px;
+  background-color: #588157;
+}
+
+.home-page .rectangle-2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #588157;
+}
+
+.home-page .frame-10 {
+  display: flex;
+  width: 172px;
+  height: 90px;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 39px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 65px;
+  left: 81px;
+  background-color: #588157;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
+
+.home-page .p {
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 400;
+  color: transparent;
+  font-size: 36px;
+  line-height: normal;
+  margin: 0;
+}
+
+.home-page .text-wrapper-16 {
+  position: absolute;
+  top: 35px;
+  left: 348px;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 28px;
+  line-height: normal;
+}
+
+.home-page .text-wrapper-17 {
+  position: absolute;
+  top: 80px;
+  left: 348px;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  line-height: normal;
+}
+
+.home-page .text-wrapper-18 {
+  position: absolute;
+  top: 120px;
+  left: 348px;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  line-height: normal;
+}
+
+.home-page .text-wrapper-19 {
+  position: absolute;
+  top: 35px;
+  left: 620px;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 28px;
+  line-height: normal;
+}
+
+.home-page .text-wrapper-20 {
+  position: absolute;
+  top: 80px;
+  left: 620px;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  line-height: normal;
+}
+
+.home-page .text-wrapper-21 {
+  position: absolute;
+  top: 120px;
+  left: 620px;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  line-height: normal;
+}
+
+.home-page .footer-icons {
+  position: absolute;
+  top: 130px;
+  left: 1050px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.home-page .footer-icon-tiktok {
+  width: 52px;
+  height: 52px;
+}
+
+.home-page .mdi-instagram {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-page .vector {
+  width: 44px;
+  height: 44px;
+}
+
+.home-page .mdi-twitter {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-page .vector-2 {
+  width: 44px;
+  height: 44px;
+}
+
+
+.home-page .slider-control {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  cursor: pointer;
+  display: block;
+}
+
+.home-page .product-cart-button {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  top: 397px;
+  left: 251px;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+  display: block;
+}
+
+.home-page .icon-button {
+  all: unset;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+}
+
+.home-page .tshirtcategory,
+.home-page .frame-7,
+.home-page .frame-8,
+.home-page .frame-9 {
+  text-decoration: none;
+}
