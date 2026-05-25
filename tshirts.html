@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <style>
+    :root {
+      --cart: #588157;
+      --clolr: #DAD7CD;
+      --clollr: #a3b18a;
+      --coilr: #a3b18a;
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="tshirts.css">
+</head>
+
+<body>
+  <div class="home-page">
+
+    <!-- ХЕДЕР (такий самий як на першій сторінці) -->
+    <header class="header">
+      <div class="kstore-wrapper">
+        <p class="kstore"><span class="span">K</span><span class="text-wrapper-13">store</span></p>
+      </div>
+      <button class="div-wrapper">Каталог</button>
+      <div class="search-container">
+        <div class="search-box">
+          <img class="search-icon" src="img/pepicons-pop-loop.svg" />
+          <input type="text" placeholder="пошук" class="search-input">
+        </div>
+        <button class="button-find">знайти</button>
+      </div>
+      <div class="header-icons">
+        <img class="header-icon" src="img/heart-2.svg" />
+        <img class="header-icon" src="img/mdi-account.svg" />
+        <img class="header-icon" src="img/mdi-cart-2.svg" />
+      </div>
+    </header>
+
+    <!-- КОНТЕНТ СТОРІНКИ -->
+    <div class="tshirts-page">
+
+      <!-- ЗАГОЛОВОК -->
+      <h1 class="tshirts-title">Футболки</h1>
+
+      <div class="tshirts-layout">
+
+        <!-- ФІЛЬТРИ ЗЛІВА -->
+        <div class="filters">
+
+          <div class="filter-group">
+            <div class="filter-label">Ціна</div>
+            <div class="price-inputs">
+              <input type="number" class="price-input" placeholder="0" value="0" />
+              <span class="price-divider">—</span>
+              <input type="number" class="price-input" placeholder="5000" value="5000" />
+            </div>
+          </div>
+
+          <div class="filter-group">
+            <button class="filter-dropdown">Бренди <span class="arrow">▼</span></button>
+          </div>
+
+          <div class="filter-group">
+            <button class="filter-dropdown">Розмір <span class="arrow">▼</span></button>
+          </div>
+
+          <div class="filter-group">
+            <button class="filter-dropdown">Колір <span class="arrow">▼</span></button>
+          </div>
+
+        </div>
+
+        <!-- СІТКА ТОВАРІВ -->
+        <div class="products-grid">
+
+          <!-- ТОВАР 1 — замініть src на своє фото -->
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img class="product-img" src="img/ВСТАВТЕ_ФОТО_1.png" alt="Футболка" />
+              <div class="product-heart"><img src="img/heart.svg" /></div>\
+            </div>
+            <div class="product-name">Футболка</div>
+            <div class="product-stars">
+              <img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" />
+              <span class="product-reviews">25 відгуків</span>
+            </div>
+            <div class="product-bottom">
+              <span class="product-price">3000 грн</span>
+              <img class="product-cart-icon" src="img/Vector.png" />
+            </div>
+          </div>
+
+          <!-- ТОВАР 2 -->
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img class="product-img" src="img/ВСТАВТЕ_ФОТО_2.png" alt="Футболка" />
+              <div class="product-heart"><img src="img/heart.svg" /></div>
+            </div>
+            <div class="product-name">Футболка</div>
+            <div class="product-stars">
+              <img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" />
+              <span class="product-reviews">25 відгуків</span>
+            </div>
+            <div class="product-bottom">
+              <span class="product-price">3000 грн</span>
+              <img class="product-cart-icon" src="img/Vector.png" />
+            </div>
+          </div>
+
+          <!-- ТОВАР 3 -->
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img class="product-img" src="img/ВСТАВТЕ_ФОТО_3.png" alt="Футболка" />
+              <div class="product-heart"><img src="img/heart.svg" /></div>
+            </div>
+            <div class="product-name">Футболка</div>
+            <div class="product-stars">
+              <img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" />
+              <span class="product-reviews">25 відгуків</span>
+            </div>
+            <div class="product-bottom">
+              <span class="product-price">3000 грн</span>
+              <img class="product-cart-icon" src="img/Vector.png" />
+            </div>
+          </div>
+
+          <!-- ТОВАР 4 -->
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img class="product-img" src="img/ВСТАВТЕ_ФОТО_4.png" alt="Футболка" />
+              <div class="product-heart"><img src="img/heart.svg" /></div>
+            </div>
+            <div class="product-name">Футболка</div>
+            <div class="product-stars">
+              <img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" />
+              <span class="product-reviews">25 відгуків</span>
+            </div>
+            <div class="product-bottom">
+              <span class="product-price">3000 грн</span>
+              <img class="product-cart-icon" src="img/Vector.png" />
+            </div>
+          </div>
+
+          <!-- ТОВАР 5 -->
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img class="product-img" src="img/ВСТАВТЕ_ФОТО_5.png" alt="Футболка" />
+              <div class="product-heart"><img src="img/heart.svg" /></div>
+            </div>
+            <div class="product-name">Футболка</div>
+            <div class="product-stars">
+              <img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" />
+              <span class="product-reviews">25 відгуків</span>
+            </div>
+            <div class="product-bottom">
+              <span class="product-price">3000 грн</span>
+              <img class="product-cart-icon" src="img/Vector.png" />
+            </div>
+          </div>
+
+          <!-- ТОВАР 6 -->
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img class="product-img" src="img/ВСТАВТЕ_ФОТО_6.png" alt="Футболка" />
+              <div class="product-heart"><img src="img/heart.svg" /></div>
+            </div>
+            <div class="product-name">Футболка</div>
+            <div class="product-stars">
+              <img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" />
+              <span class="product-reviews">25 відгуків</span>
+            </div>
+            <div class="product-bottom">
+              <span class="product-price">3000 грн</span>
+              <img class="product-cart-icon" src="img/Vector.png" />
+            </div>
+          </div>
+
+          <!-- ТОВАР 7 -->
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img class="product-img" src="img/ВСТАВТЕ_ФОТО_7.png" alt="Футболка" />
+              <div class="product-heart"><img src="img/heart.svg" /></div>
+            </div>
+            <div class="product-name">Футболка</div>
+            <div class="product-stars">
+              <img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" />
+              <span class="product-reviews">25 відгуків</span>
+            </div>
+            <div class="product-bottom">
+              <span class="product-price">3000 грн</span>
+              <img class="product-cart-icon" src="img/Vector.png" />
+            </div>
+          </div>
+
+          <!-- ТОВАР 8 -->
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img class="product-img" src="img/ВСТАВТЕ_ФОТО_8.png" alt="Футболка" />
+              <div class="product-heart"><img src="img/heart.svg" /></div>
+            </div>
+            <div class="product-name">Футболка</div>
+            <div class="product-stars">
+              <img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" />
+              <span class="product-reviews">25 відгуків</span>
+            </div>
+            <div class="product-bottom">
+              <span class="product-price">3000 грн</span>
+              <img class="product-cart-icon" src="img/Vector.png" />
+            </div>
+          </div>
+
+          <!-- ТОВАР 9 -->
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img class="product-img" src="img/ВСТАВТЕ_ФОТО_9.png" alt="Футболка" />
+              <div class="product-heart">♡</div>
+            </div>
+            <div class="product-name">Футболка</div>
+            <div class="product-stars">
+              <img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" />
+              <span class="product-reviews">25 відгуків</span>
+            </div>
+            <div class="product-bottom">
+              <span class="product-price">3000 грн</span>
+              <img class="product-cart-icon" src="img/Vector.png" />
+            </div>
+          </div>
+
+          <!-- ТОВАР 10 -->
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img class="product-img" src="img/ВСТАВТЕ_ФОТО_10.png" alt="Футболка" />
+              <div class="product-heart">♡</div>
+            </div>
+            <div class="product-name">Футболка</div>
+            <div class="product-stars">
+              <img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" />
+              <span class="product-reviews">25 відгуків</span>
+            </div>
+            <div class="product-bottom">
+              <span class="product-price">3000 грн</span>
+              <img class="product-cart-icon" src="img/Vector.png" />
+            </div>
+          </div>
+
+          <!-- ТОВАР 11 -->
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img class="product-img" src="img/ВСТАВТЕ_ФОТО_11.png" alt="Футболка" />
+              <div class="product-heart">♡</div>
+            </div>
+            <div class="product-name">Футболка</div>
+            <div class="product-stars">
+              <img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" />
+              <span class="product-reviews">25 відгуків</span>
+            </div>
+            <div class="product-bottom">
+              <span class="product-price">3000 грн</span>
+              <img class="product-cart-icon" src="img/Vector.png" />
+            </div>
+          </div>
+
+          <!-- ТОВАР 12 -->
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img class="product-img" src="img/ВСТАВТЕ_ФОТО_12.png" alt="Футболка" />
+              <div class="product-heart">♡</div>
+            </div>
+            <div class="product-name">Футболка</div>
+            <div class="product-stars">
+              <img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" />
+              <span class="product-reviews">25 відгуків</span>
+            </div>
+            <div class="product-bottom">
+              <span class="product-price">3000 грн</span>
+              <img class="product-cart-icon" src="img/Vector.png" />
+            </div>
+          </div>
+
+          <!-- ТОВАР 13 -->
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img class="product-img" src="img/ВСТАВТЕ_ФОТО_13.png" alt="Футболка" />
+              <div class="product-heart">♡</div>
+            </div>
+            <div class="product-name">Футболка</div>
+            <div class="product-stars">
+              <img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" />
+              <span class="product-reviews">25 відгуків</span>
+            </div>
+            <div class="product-bottom">
+              <span class="product-price">3000 грн</span>
+              <img class="product-cart-icon" src="img/Vector.png" />
+            </div>
+          </div>
+
+          <!-- ТОВАР 14 -->
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img class="product-img" src="img/ВСТАВТЕ_ФОТО_14.png" alt="Футболка" />
+              <div class="product-heart">♡</div>
+            </div>
+            <div class="product-name">Футболка</div>
+            <div class="product-stars">
+              <img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" />
+              <span class="product-reviews">25 відгуків</span>
+            </div>
+            <div class="product-bottom">
+              <span class="product-price">3000 грн</span>
+              <img class="product-cart-icon" src="img/Vector.png" />
+            </div>
+          </div>
+
+          <!-- ТОВАР 15 -->
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img class="product-img" src="img/ВСТАВТЕ_ФОТО_15.png" alt="Футболка" />
+              <div class="product-heart">♡</div>
+            </div>
+            <div class="product-name">Футболка</div>
+            <div class="product-stars">
+              <img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" />
+              <span class="product-reviews">25 відгуків</span>
+            </div>
+            <div class="product-bottom">
+              <span class="product-price">3000 грн</span>
+              <img class="product-cart-icon" src="img/Vector.png" />
+            </div>
+          </div>
+
+          <!-- ТОВАР 16 -->
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img class="product-img" src="img/ВСТАВТЕ_ФОТО_16.png" alt="Футболка" />
+              <div class="product-heart">♡</div>
+            </div>
+            <div class="product-name">Футболка</div>
+            <div class="product-stars">
+              <img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" />
+              <span class="product-reviews">25 відгуків</span>
+            </div>
+            <div class="product-bottom">
+              <span class="product-price">3000 грн</span>
+              <img class="product-cart-icon" src="img/Vector.png" />
+            </div>
+          </div>
+
+          <!-- ТОВАР 17 -->
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img class="product-img" src="img/ВСТАВТЕ_ФОТО_17.png" alt="Футболка" />
+              <div class="product-heart">♡</div>
+            </div>
+            <div class="product-name">Футболка</div>
+            <div class="product-stars">
+              <img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" />
+              <span class="product-reviews">25 відгуків</span>
+            </div>
+            <div class="product-bottom">
+              <span class="product-price">3000 грн</span>
+              <img class="product-cart-icon" src="img/Vector.png" />
+            </div>
+          </div>
+
+          <!-- ТОВАР 18 -->
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img class="product-img" src="img/ВСТАВТЕ_ФОТО_18.png" alt="Футболка" />
+              <div class="product-heart">♡</div>
+            </div>
+            <div class="product-name">Футболка</div>
+            <div class="product-stars">
+              <img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" />
+              <span class="product-reviews">25 відгуків</span>
+            </div>
+            <div class="product-bottom">
+              <span class="product-price">3000 грн</span>
+              <img class="product-cart-icon" src="img/Vector.png" />
+            </div>
+          </div>
+
+          <!-- ТОВАР 19 -->
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img class="product-img" src="img/ВСТАВТЕ_ФОТО_19.png" alt="Футболка" />
+              <div class="product-heart">♡</div>
+            </div>
+            <div class="product-name">Футболка</div>
+            <div class="product-stars">
+              <img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" />
+              <span class="product-reviews">25 відгуків</span>
+            </div>
+            <div class="product-bottom">
+              <span class="product-price">3000 грн</span>
+              <img class="product-cart-icon" src="img/Vector.png" />
+            </div>
+          </div>
+
+          <!-- ТОВАР 20 -->
+          <div class="product-card">
+            <div class="product-img-wrapper">
+              <img class="product-img" src="img/ВСТАВТЕ_ФОТО_20.png" alt="Футболка" />
+              <div class="product-heart">♡</div>
+            </div>
+            <div class="product-name">Футболка</div>
+            <div class="product-stars">
+              <img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" /><img src="img/Star 3.png" />
+              <span class="product-reviews">25 відгуків</span>
+            </div>
+            <div class="product-bottom">
+              <span class="product-price">3000 грн</span>
+              <img class="product-cart-icon" src="img/Vector.png" />
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- ФУТЕР (такий самий як на першій сторінці) -->
+    <div class="rectangle">
+      <div class="rectangle-2"></div>
+      <a href="index.html">
+        <div class="frame-10">
+          <p class="p"><span class="span">K</span><span class="text-wrapper-13">store</span></p>
+        </div>
+      </a>
+      <div class="text-wrapper-16">Контакт:</div>
+      <div class="text-wrapper-17">+38065060565</div>
+      <div class="text-wrapper-18">+38067889565</div>
+      <div class="text-wrapper-19">Наші партнери:</div>
+      <div class="text-wrapper-20">Вовчик Войцухевській</div>
+      <div class="text-wrapper-21">Георгій Кафка</div>
+      <div class="footer-icons">
+        <img src="img/vector-3.svg" class="footer-icon-tiktok" />
+        <div class="mdi-instagram"><img class="vector" src="img/Vector (5).png" /></div>
+        <div class="mdi-twitter"><img class="vector-2" src="img/Vector (6).png" /></div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,196 @@
+
+.home-page {
+  min-height: 100vh;
+}
+
+.tshirts-page {
+  width: 1440px;
+  padding: 40px 60px 0 60px;
+  box-sizing: border-box;
+}
+.tshirts-title {
+  font-family: "Inter", Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: #000000;
+  margin: 0 0 30px 0;
+}
+
+
+.tshirts-layout {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+
+
+.filters {
+  width: 220px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #DAD7CD;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.filter-label {
+  font-family: "Inter", Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.price-inputs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.price-input {
+  width: 80px;
+  height: 36px;
+  border: 1px solid #588157;
+  border-radius: 6px;
+  padding: 0 10px;
+  font-size: 16px;
+  font-family: "Inter", Helvetica, sans-serif;
+  background: white;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.price-divider {
+  font-size: 18px;
+  color: #000;
+}
+
+.filter-dropdown {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 16px;
+  border: 1px solid #588157;
+  border-radius: 8px;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-size: 20px;
+  color: #000000;
+  cursor: pointer;
+  background: white;
+}
+
+.filter-dropdown:hover {
+  background-color: #f0f0ec;
+}
+
+.arrow {
+  font-size: 14px;
+  color: #588157;
+}
+
+
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  flex: 1;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.product-img-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #c8c8c0;
+}
+
+.product-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+  display: block;
+}
+
+.product-heart {
+  position: absolute;
+  bottom: 10px;
+  right: 12px;
+  font-size: 22px;
+  color: #588157;
+  cursor: pointer;
+  user-select: none;
+}
+
+.product-name {
+  font-family: "Inter", Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #000000;
+  margin-top: 4px;
+}
+
+.product-stars {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.product-stars img {
+  width: 22px;
+  height: 22px;
+}
+
+.product-reviews {
+  font-family: "Inter", Helvetica, sans-serif;
+  font-size: 13px;
+  color: #000000;
+  margin-left: 6px;
+  white-space: nowrap;
+}
+
+.product-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-price {
+  font-family: "Inter", Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.product-cart-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.tshirts-page {
+  padding-bottom: 0;
+}
+
+.home-page .rectangle {
+  width: 100vw !important;
+  left: calc(-1 * (100vw - 1440px) / 2) !important;
+  position: relative !important;
+  transform: none !important;
+}
