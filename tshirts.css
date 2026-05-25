@@ -112,6 +112,11 @@
   gap: 8px;
 }
 
+.product-card-link {
+  display: block;
+  color: inherit;
+}
+
 .product-img-wrapper {
   position: relative;
   width: 100%;

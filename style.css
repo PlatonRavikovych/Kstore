@@ -649,3 +649,8 @@ a {
 .home-page .frame-9 {
   text-decoration: none;
 }
+
+.product-link {
+  display: block;
+  color: inherit;
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="utf-8" />
+  <style>
+    :root {
+      --cart: #588157;
+      --clolr: #DAD7CD;
+      --clollr: #a3b18a;
+      --coilr: #a3b18a;
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="product.css">
+</head>
+
+<body>
+  <div class="home-page product-page-shell">
+
+    <header class="header">
+      <a href="index.html" class="kstore-wrapper">
+        <p class="kstore"><span class="span">K</span><span class="text-wrapper-13">store</span></p>
+      </a>
+      <button class="div-wrapper">Каталог</button>
+      <div class="search-container">
+        <div class="search-box">
+          <img class="search-icon" src="img/pepicons-pop_loop.png" alt="Пошук" />
+          <input type="text" placeholder="пошук" class="search-input">
+        </div>
+        <button class="button-find">знайти</button>
+      </div>
+      <div class="header-icons">
+        <img class="header-icon" src="img/Vector (2).png" alt="Обране" />
+        <img class="header-icon" src="img/Vector (1).png" alt="Профіль" />
+        <img class="header-icon" src="img/Vector.png" alt="Кошик" />
+      </div>
+    </header>
+
+    <main class="product-page">
+      <section class="product-details">
+        <div class="product-gallery">
+          <div class="gallery-thumbs">
+            <img src="img/Frame 15 (10).png" alt="Мініатюра 1" class="gallery-thumb" />
+            <img src="img/Frame 15 (11).png" alt="Мініатюра 2" class="gallery-thumb" />
+            <img src="img/Frame 15 (12).png" alt="Мініатюра 3" class="gallery-thumb" />
+            <img src="img/Frame 15 (13).png" alt="Мініатюра 4" class="gallery-thumb" />
+          </div>
+
+          <div class="product-main-image">
+            <img src="img/Frame 15 (11).png" alt="Футболка" class="main-image" />
+          </div>
+        </div>
+
+        <div class="product-info">
+          <h1 class="product-title">Футболка</h1>
+          <div class="product-price-main">3000 грн</div>
+          <div class="product-stock">в наявності</div>
+
+          <div class="product-option-block">
+            <div class="product-option-label">Колір: Чорний</div>
+            <div class="color-options">
+              <img src="img/Frame 15 (11).png" alt="Колір 1" class="color-option active" />
+              <img src="img/Frame 15 (13).png" alt="Колір 2" class="color-option" />
+              <img src="img/Frame 15 (12).png" alt="Колір 3" class="color-option" />
+            </div>
+          </div>
+
+          <div class="size-buy-block">
+            <select class="size-select" aria-label="Розмір">
+              <option selected>Розмір</option>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+              <option>XL</option>
+            </select>
+
+            <button class="buy-button">
+              <img src="img/Vector.png" alt="" class="buy-icon" />
+              Купити
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="similar-section">
+        <h2 class="similar-title">Переглянути схоже</h2>
+        <p class="similar-subtitle">вам може сподобатись</p>
+
+        <div class="similar-grid">
+          <article class="similar-card">
+            <div class="similar-image-wrap">
+              <img src="img/Frame 15 (13).png" alt="Футболка 1" class="similar-image" />
+              <img src="img/Vector (2).png" alt="Обране" class="similar-heart" />
+            </div>
+            <div class="similar-name">Футболка</div>
+            <div class="similar-rating">
+              <img src="img/Star 3.png" alt="" />
+              <img src="img/Star 3.png" alt="" />
+              <img src="img/Star 3.png" alt="" />
+              <img src="img/Star 3.png" alt="" />
+              <img src="img/Star 3.png" alt="" />
+              <span>25 відгуків</span>
+            </div>
+            <div class="similar-bottom">
+              <span class="similar-price">3000 грн</span>
+              <img src="img/Vector.png" alt="Кошик" class="similar-cart" />
+            </div>
+          </article>
+
+          <article class="similar-card">
+            <div class="similar-image-wrap">
+              <img src="img/Frame 15 (11).png" alt="Футболка 2" class="similar-image" />
+              <img src="img/Vector (2).png" alt="Обране" class="similar-heart" />
+            </div>
+            <div class="similar-name">Футболка</div>
+            <div class="similar-rating">
+              <img src="img/Star 3.png" alt="" />
+              <img src="img/Star 3.png" alt="" />
+              <img src="img/Star 3.png" alt="" />
+              <img src="img/Star 3.png" alt="" />
+              <img src="img/Star 3.png" alt="" />
+              <span>25 відгуків</span>
+            </div>
+            <div class="similar-bottom">
+              <span class="similar-price">3000 грн</span>
+              <img src="img/Vector.png" alt="Кошик" class="similar-cart" />
+            </div>
+          </article>
+
+          <article class="similar-card">
+            <div class="similar-image-wrap">
+              <img src="img/Frame 15 (12).png" alt="Футболка 3" class="similar-image" />
+              <img src="img/Vector (2).png" alt="Обране" class="similar-heart" />
+            </div>
+            <div class="similar-name">Футболка</div>
+            <div class="similar-rating">
+              <img src="img/Star 3.png" alt="" />
+              <img src="img/Star 3.png" alt="" />
+              <img src="img/Star 3.png" alt="" />
+              <img src="img/Star 3.png" alt="" />
+              <img src="img/Star 3.png" alt="" />
+              <span>25 відгуків</span>
+            </div>
+            <div class="similar-bottom">
+              <span class="similar-price">3000 грн</span>
+              <img src="img/Vector.png" alt="Кошик" class="similar-cart" />
+            </div>
+          </article>
+
+          <article class="similar-card">
+            <div class="similar-image-wrap">
+              <img src="img/Frame 15 (10).png" alt="Футболка 4" class="similar-image" />
+              <img src="img/Vector (2).png" alt="Обране" class="similar-heart" />
+            </div>
+            <div class="similar-name">Футболка</div>
+            <div class="similar-rating">
+              <img src="img/Star 3.png" alt="" />
+              <img src="img/Star 3.png" alt="" />
+              <img src="img/Star 3.png" alt="" />
+              <img src="img/Star 3.png" alt="" />
+              <img src="img/Star 3.png" alt="" />
+              <span>25 відгуків</span>
+            </div>
+            <div class="similar-bottom">
+              <span class="similar-price">3000 грн</span>
+              <img src="img/Vector.png" alt="Кошик" class="similar-cart" />
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <div class="rectangle">
+      <div class="rectangle-2"></div>
+      <a href="index.html">
+        <div class="frame-10">
+          <p class="p"><span class="span">K</span><span class="text-wrapper-13">store</span></p>
+        </div>
+      </a>
+      <div class="text-wrapper-16">Контакт:</div>
+      <div class="text-wrapper-17">+38065060565</div>
+      <div class="text-wrapper-18">+38067889565</div>
+      <div class="text-wrapper-19">Наші партнери:</div>
+      <div class="text-wrapper-20">Вовчик Войцухевський</div>
+      <div class="text-wrapper-21">Георгій Кафка</div>
+      <div class="footer-icons">
+        <div class="mdi-tiktok"><img class="vector" src="img/Vector (7).png" alt="TikTok" /></div>
+        <div class="mdi-instagram"><img class="vector-2" src="img/Vector (5).png" alt="Instagram" /></div>
+        <div class="mdi-twitter"><img class="vector-3" src="img/Vector (6).png" alt="Twitter" /></div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
